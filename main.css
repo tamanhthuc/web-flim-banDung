@@ -154,3 +154,95 @@ body {
     padding-top: 3px;
     color: #828282;
 }
+
+.container-tap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-tap__so {
+    flex: 0 0 16.6667%;
+    margin-top: 12px;
+}
+
+.container-tap__so a{
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    background: #2d2d2d;
+    width: 100%;
+    padding: 12px 60px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    
+}
+
+.container-tap__so a:hover {
+    color: #ff6500;
+}
+
+.container-info {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.info-img {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+    margin-right: 16px;
+}
+.info-img img {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.content-film{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-right: 25px;
+}
+
+.content-film p {
+    text-align: justify;
+    color: #828282;
+    overflow: hidden;
+    
+}
+
+.container-info h4 {
+    color: #fff !important;
+    margin-bottom: 6px !important;
+}
+
+.content-film h5 {
+    line-height: 1.75rems;
+    color: #828282;
+}
+
+.info-content__table{
+    width: 100%;
+}
+
+.info-content__property {
+    font-weight: 700;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: 40%;
+    font-size: 14px;
+    width: 140px;
+    display: block;
+}
+
+.info-content__value {
+    width: 200px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: #828282;
+}
